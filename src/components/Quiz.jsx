@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { questionsList } from '../data/questions';
+import { questionsList } from '../data/Questions.js/';
 
 const Quiz = ({ onQuizEnd }) => {
   const [questions, setQuestions] = useState([]);
